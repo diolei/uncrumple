@@ -1,15 +1,10 @@
-# uncrease — learning to invert smooth 3D warps
+# uncrumple: learning to invert smooth 3D warps
 
 A stationary sine-mode velocity field integrated over unit time is a
 diffeomorphism: dramatic bends and twists with no fold ever forming,
 invertible exactly by backward integration. That makes it the perfect
 playground for learned inversion — the forward map is exact, the
 inverse exists, and small MLPs can learn it from point samples.
-
-This repo is the canonical trainer for the warp-inversion showcase.
-Training happens here, in PyTorch, and only the exported weights file
-travels downstream — hand-carried as a single committed file. All
-training lives here; inference lives elsewhere.
 
 ## Honesty boundary
 
@@ -77,4 +72,3 @@ training run.
 - Change any of these and the mesh-ID gate fails on arrival —
   that is the point.
 
-The venv is gitignored and never committed.
