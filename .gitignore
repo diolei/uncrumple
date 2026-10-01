@@ -1,0 +1,19 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Test caches
+.pytest_cache/
+.hypothesis/
+
+# Training outputs (the exported artifact is hand-carried, never committed here)
+dist/
+
+# Typecheckers / linters
+.mypy_cache/
+.ruff_cache/
